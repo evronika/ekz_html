@@ -1,0 +1,103 @@
+header {
+	max-width: 1280px;
+}
+
+img {
+	
+	width: 100%;
+	height: 800px;
+	margin:0;
+	position:relative;
+	opacity: 0.9;
+	
+}
+
+
+aside {
+	position: relative;
+	font-size: 15px;
+}
+
+aside p {
+	margin-left: 5%;
+	color: rgb(102,63,2);
+	font-size: 13pt;
+}
+aside p a {
+	text-decoration:none;	
+}
+
+aside div img {
+	position:relative;
+	width: 50%;
+	float:left;
+	margin-bottom:15px;
+	opacity:.6;
+}
+
+aside div img:hover {
+	opacity:1;
+}
+
+p.pi1 {
+	text-align: right;
+	color: rgb(102,63,2);
+	margin: 50px;
+	
+}
+
+img {
+	
+	width: 100%;
+	height:670px;
+	margin:0;
+	z-index:1;
+	opacity: 0.95;
+	
+	
+}
+
+
+main {
+	position :relative;
+	
+	
+}
+
+main div {
+	display:block;
+	float:left;
+	width:40%;
+	margin: 10% 5%;
+	color: rgb(102,63,2);
+	white-space: pre;
+	font-size: 14px;
+}
+
+
+main,
+aside,
+footer {
+	top: 15%;
+}
+
+@media all and (max-width: 640px) {
+	header {
+		max-width:640px;
+		min-width: 0;
+	}
+	
+	main {
+		padding-top: 5%;
+	}
+	
+	main div {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		
+}
+	aside  {
+		display: none;
+	}
+

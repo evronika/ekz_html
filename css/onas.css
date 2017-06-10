@@ -1,0 +1,136 @@
+﻿body {
+	background: #fff;
+	opacity: 0.95;
+}
+
+header {
+	max-width: 1280px;
+	min-width: 1000px;
+}
+
+header ul li a {
+	color: #000;
+}
+
+main {
+
+	margin-top: 7%;
+	background: rgba(5, 1, 5, 0.03);
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+main div {
+	display:block;
+	float:left;
+	width: 38%;
+	margin:  4% 5% 4% 7%;
+	color: rgb(0,0,0);
+	white-space: pre;
+	font-size: 13px;
+}
+
+ aside div img {
+	 width: 33.33%;
+	 float: left;
+	 height: 300px;
+	 opacity: 0.7;
+ }
+ 
+ aside div p {
+	 padding: 2%;
+	 text-indent: 20pt;
+	 font-size: 14px;
+	 font-family: "Arial Unicode MC", Calibri;
+ }
+ 
+  aside div img.news {
+ 	 margin-bottom: 3%;
+  }
+
+ .dir {
+	 height: 600px;
+	 float: right;
+ }
+ 
+ aside div img:hover {
+	 opacity: 1.0;
+ }
+ 
+ @media all and (max-width: 1024px) {
+	 header {
+		 min-width: 0;
+		 position: relative;
+	 }
+	 main{
+		 margin: 0;
+	 }
+	 aside:{ 
+	 display: none;
+	 }
+ }
+ 
+ @media all and (max-width: 640px) {
+	 header {
+		 min-width: 0;
+	 }
+	header ul {
+	width: 10%;
+	width: 50px;
+	height: 50px;
+	background: #aaa;
+	margin: 1% 0 0 7%;		
+	}
+	
+	header ul li{
+	display: none;
+	}
+	
+	footer div{
+	width: 100%;		
+	}
+	
+	footer div img{
+	margin: 0 35% 0 35%;
+	}
+	
+	aside div p {
+	max-width: 100%;
+	}
+
+	
+	main div:first-child img {
+		display: block;
+	}
+	
+	main div:last-child ul{
+		margin: 0 auto;
+	}
+	
+	main div:last-child li {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	main div {
+	width: 88%;	
+	text-align: left;
+	white-space: normal;
+	}
+	
+	aside div img {
+	width: 50%;
+	}
+
+	aside div img:last-child {
+		display: none;
+	}
+	}
+	
+	@media all and (max-width: 641px) {
+	 article div div img {
+		 width: 100%;
+	 }

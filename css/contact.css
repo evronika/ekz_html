@@ -1,0 +1,167 @@
+body {
+	background: #fff;
+	opacity: 0.95;
+	color: black;
+	min-width: 1000px;
+}
+
+header {
+	max-width: 1280px;
+	min-width: 1000px;
+}
+
+header ul li a{
+	color: #000;
+}
+
+main {
+	position :relative;
+	margin-top: 7%;
+	background: rgba(5, 1, 5, 0.03);
+	display: block;
+	clear:both;
+}
+
+
+main:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+main div {
+	display:block;
+	float:left;
+	width:38%;
+	margin:  4% 5% 1% 7%;
+	color: rgb(0,0,0);
+	white-space: pre;
+	font-size: 13px;
+
+	
+}
+
+main div img {
+	width: 60%;
+	height: 40%;
+	margin: 2% 40% 2% 0;
+}
+
+aside {
+	display: block;
+	position: relative;
+	font-size: 15px;
+}
+
+
+
+aside div {
+	width: 100%;
+	opacity:1;
+	clear:both;
+}
+
+aside div img {
+	width:100%;
+}
+
+
+aside div:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+textarea, 
+input[type="text"] {
+	width:100%;
+	background: transparent;
+	border: none;
+}
+
+input[type="button"]{
+	color: rgba(0,0,0,0.8);
+	width:100%;
+	text-align: center;
+	background: transparent;
+	border: none;
+	color: rgb(179,0,0);
+	font-size: 14px;
+}
+@media all and (max-width: 1024px) {
+	body {
+	min-width: 300px;
+	width: 100%;
+	 
+	}
+	
+	
+	header {
+	margin: 0;
+	position: relative;
+	padding: 0.4% 0 0 0;
+	min-width: 0;
+	min-width: 0;
+	}
+	div,
+	div strong,
+	div b {
+		text-align: center;
+	}
+	li {
+	list-style: none;
+    display:inline-block;
+    width:24.5%;
+	font:  white Compact  ;
+	font-size: 13px;
+	text-align:center;
+
+}
+li:first-child {
+	display: none;
+}
+main {
+	margin-top: 3%;
+}
+
+main div {
+	width: 98%;
+	margin: 1%;
+}
+aside {
+	display: none;
+}
+
+}
+
+
+
+@media all and (max-width: 640px) {
+	body {
+
+		width: 100%;
+	}
+	header,ul {
+	width: 100%;
+	margin: 0;
+
+	padding: 0.4% 0 0 0;
+
+}
+	main {
+		margin: 0;
+	}
+
+	main div {
+		width: 96%;
+		margin:2%;
+			
+}
+	input[type="button"]{
+	text-align: left;
+}
+	aside  {
+	display: none;
+}	
+}
+

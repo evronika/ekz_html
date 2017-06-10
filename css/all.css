@@ -1,0 +1,194 @@
+
+
+body {
+	margin: 0 auto;
+    width: 100%;
+	font-family: Calibri, sans-serif;
+	font-size: 20px;
+	min-width: 600px;
+	max-width: 1280px;
+
+}
+
+header {
+	height: 10%;
+	width:100%;
+	position: absolute;
+	z-index:3;
+	background: rgba(255,255,255,0);
+	top: 1.5%;
+
+}
+
+ul { 
+	width:100%;
+	margin: 0;
+	padding: 0;
+				
+}
+
+li {
+	list-style: none;
+    display:inline-block;
+    width:10.7%;
+	font:  white Compact  ;
+	font-size: 13px;
+	text-align:center;
+
+}
+
+header li nav{
+	position: absolute;
+	display: none;
+	margin: -1% 2%;
+}
+
+nav a.fb,
+nav a.tw,
+nav a.in {
+	height: 24px;
+	width: 24px;
+	background: url(../images/1.jpg) rgba(0,0,255,0.5) ;
+	margin-top: 0.5% ;
+	display: inline-block;
+
+}
+
+nav a.fb {
+	background: url(../images/icon.png) 0 0 ;
+}
+
+nav a.tw {
+	background: url(../images/icon.png) 25px 0 ;
+}
+
+nav a.in {
+	background: url(../images/icon.png) 49px 0 ;
+}
+
+li:last-child:hover nav,
+li:last-child:hover a[href=""] {
+	display: block;
+	color: rgba(255,255,255,0);
+}
+
+a {
+	color: black;
+}
+
+header a {
+	text-decoration:none;
+	color: white;
+}
+
+li a:hover {
+	color: rgb(179,0,0);
+}
+
+a.act1 {
+	color: rgb(179,0,0);
+	font-size: 16px;
+}
+
+div.act1 img,
+footer div img {
+	width: 140px;
+	height:50px;
+}
+
+aside p a ,
+footer div{
+	color: rgb(102,63,2);
+}
+
+footer {
+	position: relative;
+	clear:both;
+}
+
+main {
+	clear:both;
+}
+
+main:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+aside,footer {
+
+	clear:both;
+}
+
+
+aside:after {
+	
+	content: "";
+    display: table;
+    clear: both;
+}
+
+footer:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+	display:block;
+	margin: 6% auto;
+
+}
+
+footer div {
+	width: 45%;
+	float:left;
+}
+
+
+@media all and (max-width: 640px) {
+	header {
+		width: 50%;
+	}
+	header ul {
+		width: 50px;
+		height: 50px;
+		background: #aaa;
+		margin: 1% 0 0 7%;		
+	}
+	header ul li{
+		display: none;
+	}
+	
+	footer div{
+		width: 100%;		
+	}
+	footer div img{
+	margin: 0 40% 0 40%;
+	}
+	aside div p {
+		clear: both;
+	}
+	
+	aside div img:first-child {
+		display: none;
+	}
+}
+
+@media all and (max-width: 1024px) {
+		li {
+	list-style: none;
+    display:inline-block;
+    width:24.5%;
+	font:  white Compact  ;
+	font-size: 13px;
+	text-align:center;
+
+}
+li:first-child {
+	display: none;
+}
+}
+	
+	
